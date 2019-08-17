@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "alias": ["www.arturocampos.dev"],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "status": 301,
+      "headers": { "Location": "https://arturocampos.dev/$1" }
+    }
+  ]
+}
