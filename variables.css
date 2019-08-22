@@ -1,0 +1,19 @@
+:root {
+  /* Colors */
+  --anchor-color: #008e76;
+  --accent-color: #1de9b6;
+  --bright-color: #fefefe;
+  --dark-color: #000;
+  --dark-gray-color: #a9a9a9;
+  --gray-color: #dedede;
+
+  /* Sizes */
+  --border-radius: 3px;
+
+  /* Spacing */
+  --xs-horizontal-spacing: 1rem;
+  --sm-horizontal-spacing: 2rem;
+  --md-horizontal-spacing: 4rem;
+  --lg-horizontal-spacing: 6rem;
+  --xl-horizontal-spacing: 0;
+}
