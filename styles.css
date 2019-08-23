@@ -207,6 +207,10 @@ footer p {
     position: relative;
   }
 
+  main.error {
+    background-image: url(/static/images/error-bg.jpg);
+  }
+
   main::after {
     background: linear-gradient(
         0deg,

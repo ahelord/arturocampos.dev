@@ -16,14 +16,14 @@ class Error extends React.Component {
         <Head>
           <title>Arturo Campos - Web Developer</title>
         </Head>
-        <main>
+        <main className='error'>
           <Header />
           <section>
-            <h1>Sorry!</h1>
+            <h1>Oops!</h1>
             <p>
               {this.props.statusCode
-                ? `An error ${this.props.statusCode} occurred on server`
-                : 'An error occurred on client'}
+                ? `An error ${this.props.statusCode} occurred on server.`
+                : 'An error occurred on client.'}
             </p>
           </section>
         </main>
