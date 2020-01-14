@@ -10,7 +10,7 @@ const Footer = () => {
             ❤️
           </span>{' '}
           and{' '}
-          <span aria-label='Cofee' className='align-middle' role='img'>
+          <span aria-label='Coffee' className='align-middle' role='img'>
             ☕️
           </span>
         </small>

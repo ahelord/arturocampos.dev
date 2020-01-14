@@ -27,13 +27,14 @@ const Head = () => (
     />
     <meta name='msapplication-TileColor' content='#1de9b6' />
     <meta name='theme-color' content='#1de9b6' />
-    <meta property='og:url' content='https://arturocampos.dev' />
     <meta property='og:title' content='Arturo Campos - Web Development' />
     <meta property='og:description' content='Senior Web Developer' />
-    <meta name='twitter:site' content='https://arturocampos.dev' />
-    <meta name='twitter:card' content='summary_large_image' />
-    <meta name='twitter:image' content='/static/images/share.png' />
     <meta property='og:image' content='/static/images/share.png' />
+    <meta property='og:url' content='https://arturocampos.dev' />
+    <meta name='twitter:card' content='summary_large_image' />
+    <meta property='og:site_name' content='Arturo Campos - Web Development' />
+    <meta name='twitter:image:alt' content='Arturo Campos - Web Development' />
+    <meta name='twitter:site' content='@arturocr' />
     <meta property='og:image:width' content='1200' />
     <meta property='og:image:height' content='628' />
   </>
