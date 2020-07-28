@@ -1,20 +1,25 @@
-import React from 'react';
-import App from 'next/app';
+import { useEffect } from 'react';
 import Router from 'next/router';
-import withGA from 'next-ga';
 
-import 'typeface-gothic-a1';
+import * as gtag from '../lib/gtag';
 
 import 'css-reset-and-normalize/css/reset-and-normalize.min.css';
 import 'css-reset-and-normalize/css/link-reset.min.css';
-import '../variables.css';
-import '../styles.css';
+import '../styles/variables.css';
+import '../styles/styles.css';
 
-class MyApp extends App {
-  render() {
-    const { Component, pageProps } = this.props;
-    return <Component {...pageProps} />;
-  }
-}
+const App = ({ Component, pageProps }) => {
+  useEffect(() => {
+    const handleRouteChange = (url) => {
+      gtag.pageview(url);
+    };
+    Router.events.on('routeChangeComplete', handleRouteChange);
+    return () => {
+      Router.events.off('routeChangeComplete', handleRouteChange);
+    };
+  }, []);
 
-export default withGA('UA-146225111-1', Router)(MyApp);
+  return <Component {...pageProps} />;
+};
+
+export default App;

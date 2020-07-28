@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ACLogo = props => (
+const Logo = (props) => (
   <svg viewBox='0 0 323.28 301.67' {...props}>
     <path
       d='M178.33 92.88a52.07 52.07 0 11104.13 0h37.51a89.58 89.58 0 00-179.15 0M178.33 208.57a52.07 52.07 0 00104.13 0h37.51a89.58 89.58 0 01-179.15 0'
@@ -12,4 +12,4 @@ const ACLogo = props => (
   </svg>
 );
 
-export default ACLogo;
+export default Logo;

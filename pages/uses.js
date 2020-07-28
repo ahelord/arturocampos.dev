@@ -1,15 +1,15 @@
 import React from 'react';
 import Head from 'next/head';
 
-import Footer from '../components/Footer';
-import Header from '../components/Header';
+import Footer from '../components/footer';
+import Header from '../components/header';
+import MyHead from '../components/head';
 
-import '../iconography.css';
-
-const Home = () => (
+const Uses = () => (
   <>
     <Head>
       <title>Arturo Campos - Web Developer / Uses</title>
+      <MyHead />
     </Head>
     <main className='normal'>
       <Header />
@@ -42,16 +42,16 @@ const Home = () => (
             is my terminal.
           </li>
           <li>
-            My theme of choice is <strong>Shades of Purple</strong>. For both{' '}
+            My theme of choice is <strong>Nord</strong>. For both{' '}
             <a
-              href='https://marketplace.visualstudio.com/items?itemName=ahmadawais.shades-of-purple'
+              href='https://www.nordtheme.com/ports/visual-studio-code'
               target='_blank'
               rel='noopener noreferrer'>
               VSCode
             </a>{' '}
             and{' '}
             <a
-              href='https://github.com/ahmadawais/Shades-of-Purple-Hyper'
+              href='https://github.com/arcticicestudio/nord-hyper'
               target='_blank'
               rel='noopener noreferrer'>
               Hyper
@@ -61,12 +61,12 @@ const Home = () => (
           <li>
             I use{' '}
             <a
-              href='https://github.com/microsoft/cascadia-code'
+              href='https://rubjo.github.io/victor-mono/'
               target='_blank'
               rel='noopener noreferrer'>
-              Cascadia Code
+              Victor Mono
             </a>{' '}
-            font (with ligatures enabled, of course).
+            font.
           </li>
         </ul>
         <h2>Desktop Apps</h2>
@@ -146,22 +146,31 @@ const Home = () => (
         </ul>
         <h2>Hardware</h2>
         <ul>
-          <li>MacBook Pro 15" 2018.</li>
+          <li>MacBook Pro 15" 2018 / Mac Mini 2012.</li>
           <li>
             <a
-              href='https://www.amazon.com/Logitech-Performance-Wireless-DISCONTINUED-Replaced/dp/B002HWRJBM'
+              href='https://www.amazon.com/Dell-P2418D-23-8-16-Monitor/dp/B074MMR1V3'
               target='_blank'
               rel='noopener noreferrer'>
-              Logitech Performance MX Mouse
+              Dell P2418D 23.8" Monitor (2560 x 1440)
             </a>
-            , this thing lasts forever.
+            .
           </li>
           <li>
             <a
-              href='https://www.logitech.com/en-us/product/11713'
+              href='https://www.logitech.com/en-us/product/mx-master-3.910-005620.html'
               target='_blank'
               rel='noopener noreferrer'>
-              Logitech Keyboard K480
+              Logitech MX Master 3
+            </a>
+            .
+          </li>
+          <li>
+            <a
+              href='https://www.amazon.com/Apple-Aluminum-Keyboard-MB110LL-Refurbished/dp/B078YG84MN'
+              target='_blank'
+              rel='noopener noreferrer'>
+              Apple Aluminum Wired Keyboard
             </a>
             .
           </li>
@@ -190,4 +199,4 @@ const Home = () => (
   </>
 );
 
-export default Home;
+export default Uses;

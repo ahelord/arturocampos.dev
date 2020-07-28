@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import ACLogo from '../components/ACLogo';
+import Logo from '../components/logo';
 
 const Header = () => (
   <header>
@@ -8,7 +8,7 @@ const Header = () => (
       <Link href='/'>
         <a>
           <span>
-            <ACLogo />
+            <Logo />
           </span>
           Arturo Campos
         </a>
