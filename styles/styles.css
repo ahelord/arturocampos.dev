@@ -89,24 +89,23 @@ header h1 a {
 
 header h1 a span {
   align-items: center;
-  background-color: var(--accent-color);
+  background-color: var(--bright-color);
   background-size: 50%;
   border-radius: 50%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--anchor-color) var(--accent-color);
   display: flex;
   justify-content: center;
   position: relative;
   height: 7rem;
   margin: 0 auto 0.25rem;
-  transition: background-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
   width: 7rem;
 }
 
 header h1 a span svg {
-  fill: var(--dark-color);
   height: 4.5rem;
-  stroke: var(--dark-color);
-  transition: all 0.3s ease-in-out;
-  width: 4.5rem;
 }
 
 header h1 a span::before {
@@ -124,13 +123,8 @@ header h1 a:hover {
   text-decoration: none;
 }
 
-header h1 a span:hover {
-  background-color: var(--dark-color);
-}
-
-header h1 a span:hover svg {
-  fill: var(--bright-color);
-  stroke: var(--bright-color);
+header h1 a:hover span {
+  border-color: var(--accent-color) var(--anchor-color);
 }
 
 header nav ul {
@@ -149,7 +143,8 @@ header nav ul li a {
 }
 
 footer {
-  background-color: var(--accent-color);
+  background-color: var(--anchor-color);
+  color: var(--bright-color);
   text-align: center;
   width: 100%;
 }
@@ -169,6 +164,12 @@ footer p {
 
 .text-center {
   text-align: center;
+}
+
+.inline-icon {
+  height: 20px;
+  vertical-align: bottom;
+  width: 20px;
 }
 
 .social {

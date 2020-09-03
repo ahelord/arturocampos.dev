@@ -25,7 +25,8 @@ const Uses = () => (
             <a
               href='https://code.visualstudio.com/'
               target='_blank'
-              rel='noopener noreferrer'>
+              rel='noopener noreferrer'
+            >
               Visual Studio Code
             </a>
             , I use the Stable release for Angular Development and the Insiders
@@ -36,7 +37,8 @@ const Uses = () => (
             <a
               href='https://hyper.is/'
               target='_blank'
-              rel='noopener noreferrer'>
+              rel='noopener noreferrer'
+            >
               Hyper
             </a>{' '}
             is my terminal.
@@ -46,14 +48,16 @@ const Uses = () => (
             <a
               href='https://www.nordtheme.com/ports/visual-studio-code'
               target='_blank'
-              rel='noopener noreferrer'>
+              rel='noopener noreferrer'
+            >
               VSCode
             </a>{' '}
             and{' '}
             <a
               href='https://github.com/arcticicestudio/nord-hyper'
               target='_blank'
-              rel='noopener noreferrer'>
+              rel='noopener noreferrer'
+            >
               Hyper
             </a>
             .
@@ -63,7 +67,8 @@ const Uses = () => (
             <a
               href='https://rubjo.github.io/victor-mono/'
               target='_blank'
-              rel='noopener noreferrer'>
+              rel='noopener noreferrer'
+            >
               Victor Mono
             </a>{' '}
             font.
@@ -75,7 +80,8 @@ const Uses = () => (
             <a
               href='https://www.google.com/chrome/'
               target='_blank'
-              rel='noopener noreferrer'>
+              rel='noopener noreferrer'
+            >
               Chrome
             </a>{' '}
             is my browser.
@@ -84,7 +90,8 @@ const Uses = () => (
             <a
               href='https://1password.com/'
               target='_blank'
-              rel='noopener noreferrer'>
+              rel='noopener noreferrer'
+            >
               1Password
             </a>{' '}
             takes care of my passwords.
@@ -94,7 +101,8 @@ const Uses = () => (
             <a
               href='https://www.notion.so/'
               target='_blank'
-              rel='noopener noreferrer'>
+              rel='noopener noreferrer'
+            >
               Notion
             </a>{' '}
             for my ToDos and to keep track of my important notes or projects.
@@ -103,7 +111,8 @@ const Uses = () => (
             <a
               href='https://toggl.com/'
               target='_blank'
-              rel='noopener noreferrer'>
+              rel='noopener noreferrer'
+            >
               Toggl
             </a>{' '}
             makes easier to track my freelance timesheets.
@@ -113,21 +122,24 @@ const Uses = () => (
             <a
               href='https://www.adobe.com/products/illustrator.html'
               target='_blank'
-              rel='noopener noreferrer'>
+              rel='noopener noreferrer'
+            >
               Illustrator
             </a>{' '}
             or{' '}
             <a
               href='https://www.adobe.com/products/photoshop.html'
               target='_blank'
-              rel='noopener noreferrer'>
+              rel='noopener noreferrer'
+            >
               Photoshop
             </a>
             . Sometimes{' '}
             <a
               href='https://www.sketch.com/'
               target='_blank'
-              rel='noopener noreferrer'>
+              rel='noopener noreferrer'
+            >
               Sketch
             </a>
             .
@@ -138,7 +150,8 @@ const Uses = () => (
             <a
               href='https://www.kiwiforgmail.com/'
               target='_blank'
-              rel='noopener noreferrer'>
+              rel='noopener noreferrer'
+            >
               Kiwi for Gmail
             </a>
             .
@@ -151,7 +164,8 @@ const Uses = () => (
             <a
               href='https://www.amazon.com/Dell-P2418D-23-8-16-Monitor/dp/B074MMR1V3'
               target='_blank'
-              rel='noopener noreferrer'>
+              rel='noopener noreferrer'
+            >
               Dell P2418D 23.8" Monitor (2560 x 1440)
             </a>
             .
@@ -160,17 +174,19 @@ const Uses = () => (
             <a
               href='https://www.logitech.com/en-us/product/mx-master-3.910-005620.html'
               target='_blank'
-              rel='noopener noreferrer'>
+              rel='noopener noreferrer'
+            >
               Logitech MX Master 3
             </a>
             .
           </li>
           <li>
             <a
-              href='https://www.amazon.com/Apple-Aluminum-Keyboard-MB110LL-Refurbished/dp/B078YG84MN'
+              href='https://www.logitech.com/en-us/products/keyboards/mx-keys-wireless-keyboard.920-009294.html'
               target='_blank'
-              rel='noopener noreferrer'>
-              Apple Aluminum Wired Keyboard
+              rel='noopener noreferrer'
+            >
+              Logitech MX Keys Keyboard
             </a>
             .
           </li>
@@ -178,20 +194,31 @@ const Uses = () => (
             <a
               href='https://www.bose.com/en_us/products/headphones/earphones/soundsport-wireless.html#v=soundsport_wireless_black'
               target='_blank'
-              rel='noopener noreferrer'>
+              rel='noopener noreferrer'
+            >
               Bose SoundSport
             </a>{' '}
-            wireless headphones.
+            wireless headphones and{' '}
+            <a
+              href='https://www.sony.com/electronics/headband-headphones/wh-h910n'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              Sony WH-H910N
+            </a>
+            .
           </li>
           <li>
             <a
               href='https://www.amazon.com/dp/B01M05SYJL'
               target='_blank'
-              rel='noopener noreferrer'>
+              rel='noopener noreferrer'
+            >
               SavvyStand
             </a>{' '}
             for my laptop.
           </li>
+          <li>Unknown brand Standing Desk.</li>
         </ul>
       </section>
     </main>
