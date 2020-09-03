@@ -11,7 +11,7 @@ import css from '../styles/index.module.css';
 const Home = () => (
   <>
     <Head>
-      <title>Arturo Campos - Web Developer</title>
+      <title>Arturo Campos - Web Development</title>
       <MyHead />
     </Head>
     <main>

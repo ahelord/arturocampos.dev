@@ -8,7 +8,7 @@ import MyHead from '../components/head';
 const Uses = () => (
   <>
     <Head>
-      <title>Arturo Campos - Web Developer / Uses</title>
+      <title>Arturo Campos - Web Development / Uses</title>
       <MyHead />
     </Head>
     <main className='normal'>
