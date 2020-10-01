@@ -44,9 +44,9 @@ const Uses = () => (
             is my terminal.
           </li>
           <li>
-            My theme of choice is <strong>Nord</strong>. For both{' '}
+            My theme of choice is <strong>Shades of Purple</strong>. For both{' '}
             <a
-              href='https://www.nordtheme.com/ports/visual-studio-code'
+              href='https://github.com/ahmadawais/shades-of-purple-vscode'
               target='_blank'
               rel='noopener noreferrer'
             >
@@ -54,7 +54,7 @@ const Uses = () => (
             </a>{' '}
             and{' '}
             <a
-              href='https://github.com/arcticicestudio/nord-hyper'
+              href='https://github.com/ahmadawais/shades-of-purple-hyper'
               target='_blank'
               rel='noopener noreferrer'
             >
@@ -65,11 +65,11 @@ const Uses = () => (
           <li>
             I use{' '}
             <a
-              href='https://rubjo.github.io/victor-mono/'
+              href='https://github.com/microsoft/cascadia-code'
               target='_blank'
               rel='noopener noreferrer'
             >
-              Victor Mono
+              Cascadia Code
             </a>{' '}
             font.
           </li>
@@ -154,7 +154,14 @@ const Uses = () => (
             >
               Kiwi for Gmail
             </a>
-            .
+            . However, I'm currently trying{' '}
+            <a
+              href='https://mimestream.com/'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              Mimestream
+            </a>.
           </li>
         </ul>
         <h2>Hardware</h2>
