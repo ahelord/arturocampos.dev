@@ -3,13 +3,16 @@ import Head from 'next/head';
 
 import Footer from '../components/footer';
 import Header from '../components/header';
-import MyHead from '../components/head';
 
 const Uses = () => (
   <>
     <Head>
-      <title>Arturo Campos - Web Development / Uses</title>
-      <MyHead />
+      <title key='title-tag'>Arturo Campos - Web Development / Uses</title>
+      <meta
+        property='title'
+        content='Arturo Campos - Web Development / Uses'
+        key='meta-tile'
+      />
     </Head>
     <main className='normal'>
       <Header />
@@ -161,7 +164,8 @@ const Uses = () => (
               rel='noopener noreferrer'
             >
               Mimestream
-            </a>.
+            </a>
+            .
           </li>
         </ul>
         <h2>Hardware</h2>

@@ -1,18 +1,15 @@
-import React from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 
 import Footer from '../components/footer';
 import Header from '../components/header';
-import MyHead from '../components/head';
 
 import css from '../styles/index.module.css';
 
 const Home = () => (
   <>
     <Head>
-      <title>Arturo Campos - Web Development</title>
-      <MyHead />
+      <title key='title-tag'>Arturo Campos - Web Development</title>
     </Head>
     <main>
       <Header />

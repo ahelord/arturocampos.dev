@@ -6,7 +6,7 @@ import Header from '../components/header';
 const Error = () => (
   <>
     <Head>
-      <title>Arturo Campos - Web Developer</title>
+      <title key='title-tag'>Arturo Campos - Web Developer</title>
     </Head>
     <main className='error'>
       <Header />
